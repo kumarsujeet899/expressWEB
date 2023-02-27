@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{>headerlinks}}
+</head>
+<body>
+    {{>navbar}}
+    <!-- main header -->
+    <div class="container-fluid main_header">
+      <div class="row">
+        <div class="col-md-10 col-12 mx-auto">
+          <div class="row">
+            <div class="col-md-12 col-12 main_header_left align-items-center">
+                <figure class="errimg">
+                  <img src="images/error404.jpg" alt="sk weather" class="img-fluid" title="sujeet Kumar">
+                </figure>
+              <p>Welcome to weather app</p>
+              <h1>{{errorMessage}}</h1>
+              <a href='/' target="_blank"><button>Home Page</button></a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer code -->
+  {{>footer}}
+</body>
+</html>
